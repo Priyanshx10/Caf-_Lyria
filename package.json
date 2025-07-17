@@ -1,0 +1,36 @@
+{
+  "name": "cafe-lyria",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.7",
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/mongoose": "^5.11.97",
+    "@types/nodemailer": "^6.4.17",
+    "@types/pdfkit": "^0.17.0",
+    "mongoose": "^8.16.3",
+    "next": "15.4.1",
+    "next-auth": "^4.24.11",
+    "pdfkit": "^0.17.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-qr-code": "^2.0.18"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.19.8",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
